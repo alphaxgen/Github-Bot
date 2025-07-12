@@ -1,0 +1,17 @@
+# database.yml
+# Configuration file
+
+database:
+  host: localhost
+  port: 5432
+  name: myapp
+  user: admin
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "app.log"
+
+server:
+  port: 8000
+  host: "0.0.0.0"
